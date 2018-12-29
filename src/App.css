@@ -1,0 +1,19 @@
+.body{
+	background-image: url("https://hdqwalls.com/download/star-wars-bb-droid-5120x2880.jpg");
+	background-size: cover;
+}
+
+@font-face{
+	font-family: 'Death Star';
+	src: local('Death Star'), url('Death Star.otf') format('opentype');
+}
+
+.title{
+	margin-top: -30px;
+	margin-bottom: -40px;
+	font-family: 'Death Star';
+	font-size: 40px;
+	background: -webkit-linear-gradient(#eee, #333);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
